@@ -36,7 +36,7 @@ class HelpRequestRepository {
         ]);
     }
 
-    // FIND ALL
+
 
     public function findAll(): array {
 
@@ -47,7 +47,7 @@ class HelpRequestRepository {
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 
-    // FIND BY ID
+
 
     public function findById(int $id): ?HelpRequest {
 

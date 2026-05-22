@@ -15,7 +15,7 @@ class UserRepository {
         $this->pdo = Database::getInstance();
     }
 
-    // FIND BY EMAIL
+  
 
     public function findByEmail(string $email): ?User {
 
@@ -40,7 +40,7 @@ class UserRepository {
         );
     }
 
-    // FIND BY ID
+   
 
     public function findById(int $id): ?User {
 

@@ -8,7 +8,7 @@ class Database {
 
     public static function getInstance(): PDO {
  
-        if (self::$instance === null) {
+        if (self::$instance === null) { 
 
             self::$instance = new PDO(
                 "mysql:host=localhost;dbname=peersync;charset=utf8",

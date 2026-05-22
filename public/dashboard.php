@@ -20,7 +20,7 @@ $requests = $requestRepo->findAll();
  
 $userName = $_SESSION['user_name'] ?? 'Guest';
 
-$totalUsers = $pdo->query("
+$totalUsers = $pdo->query(" 
     SELECT COUNT(*) FROM users
 ")->fetchColumn();
 

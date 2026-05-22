@@ -88,7 +88,7 @@ class HelpRequest {
 
         $this->idTutor = $tutor->getId();
 
-        $this->statut = Status::ASSIGNE; 
+        $this->statut = Status::ASSIGNE;  
     }
 
     // RESOLUTION

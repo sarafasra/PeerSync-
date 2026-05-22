@@ -91,7 +91,7 @@ class HelpRequest {
         $this->statut = Status::ASSIGNE;  
     }
 
-    // RESOLUTION
+    // RESOLUTION 
 
     public function resolve(): void {
 

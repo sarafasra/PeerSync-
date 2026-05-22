@@ -8,7 +8,7 @@ session_start();
 require_once __DIR__ . '/../Config/Database.php';
 require_once __DIR__ . '/../src/Repositories/HelpRequestRepository.php';
 
-use Config\Database;
+use Config\Database; 
 use Src\Repositories\HelpRequestRepository;
 
 $pdo = Database::getInstance();

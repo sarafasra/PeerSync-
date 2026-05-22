@@ -54,7 +54,7 @@ class UserRepository {
 
         if (!$data) {
             return null;
-        }
+        } 
 
         return new User(
             $data['id'],

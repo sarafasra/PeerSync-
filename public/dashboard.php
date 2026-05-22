@@ -22,7 +22,7 @@ $userName = $_SESSION['user_name'] ?? 'Guest';
 
 $totalUsers = $pdo->query(" 
     SELECT COUNT(*) FROM users
-")->fetchColumn();
+")->fetchColumn(); 
 
 $totalRequests = $pdo->query("
     SELECT COUNT(*) FROM help_requests

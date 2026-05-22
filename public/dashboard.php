@@ -14,7 +14,7 @@ use Src\Repositories\HelpRequestRepository;
 $pdo = Database::getInstance();
 
 $requestRepo = new HelpRequestRepository();
-
+ 
 $requests = $requestRepo->findAll();
 
 

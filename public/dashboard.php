@@ -15,7 +15,7 @@ $pdo = Database::getInstance();
 
 $requestRepo = new HelpRequestRepository();
  
-$requests = $requestRepo->findAll();
+$requests = $requestRepo->findAll(); 
 
  
 $userName = $_SESSION['user_name'] ?? 'Guest';
